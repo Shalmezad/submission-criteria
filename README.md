@@ -24,6 +24,17 @@ For production, the API sever requires the following environment variables
 -   `PORT`
 -   `API_KEY`
 
+Docker
+=========
+
+For those who wish to use docker to run the server, a docker-compose file has been provided.
+
+The image can be built with: `docker-compose build`
+
+Then the server can be started with: `docker-compose up`
+
+Just like the local server, it runs on port 5151
+
 Community
 =========
 

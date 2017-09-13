@@ -1,0 +1,11 @@
+version: '2'
+services:
+  numerai-submission-server:
+    build: .
+    image: numerai-submission-server
+    command: python server.py --use_local
+    volumes:
+      - .:/submission-criteria
+    ports:
+      - "5151:5151"
+
